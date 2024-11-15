@@ -1,4 +1,3 @@
-Mis disculpas por las respuestas previas. Aquí tienes el `README.md` simplificado, claro y sin explicaciones innecesarias:
 
 ```markdown
 # Infobip Batch Updater
