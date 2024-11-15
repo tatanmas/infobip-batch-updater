@@ -1,0 +1,7 @@
+[
+    {
+        "batch": 1,
+        "status_code": 200,
+        "response_text": "{\"createdAt\":\"2024-11-15T16:21:53\",\"modifiedAt\":\"2024-11-15T16:21:53\",\"id\":38,\"type\":\"CUSTOMER\",\"origin\":\"API\",\"modifiedFrom\":\"API\",\"contactInformation\":{}}"
+    }
+]
