@@ -1,6 +1,6 @@
 # Infobip Batch Updater
 
-Este proyecto es un script en Python que automatiza la actualización de perfiles en Infobip utilizando su API de Batch Update.
+Este codigo es un script en Python que automatiza la actualización de perfiles en Infobip utilizando su API de Batch Update.
 
 ## ¿Qué hace este programa?
 
