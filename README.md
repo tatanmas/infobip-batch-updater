@@ -1,5 +1,3 @@
-
-```markdown
 # Infobip Batch Updater
 
 Este proyecto es un script en Python que automatiza la actualización de perfiles en Infobip utilizando su API de Batch Update.
@@ -15,6 +13,8 @@ Este proyecto es un script en Python que automatiza la actualización de perfile
 
 ### 1. Clona el repositorio
 
+Primero, clona este repositorio y navega al directorio del proyecto:
+
 ```bash
 git clone https://github.com/tatanmas/infobip-batch-updater.git
 cd infobip-batch-updater
@@ -22,13 +22,26 @@ cd infobip-batch-updater
 
 ### 2. Crea y activa un entorno virtual
 
+Crea un entorno virtual para instalar las dependencias:
+
 ```bash
 python3 -m venv venv
-source venv/bin/activate  # En macOS/Linux
-venv\Scripts\activate      # En Windows
 ```
 
+Activa el entorno virtual:
+
+- En macOS/Linux:
+  ```bash
+  source venv/bin/activate
+  ```
+- En Windows:
+  ```bash
+  venv\Scripts\activate
+  ```
+
 ### 3. Instala las dependencias
+
+Con el entorno virtual activado, instala las dependencias:
 
 ```bash
 pip install -r requirements.txt
@@ -36,13 +49,17 @@ pip install -r requirements.txt
 
 ### 4. Configura el archivo `.env`
 
-Crea un archivo `.env` en el directorio del proyecto con el siguiente contenido:
+Crea un archivo llamado `.env` en el directorio del proyecto y agrega lo siguiente:
 
-```env
+```
 API_KEY=tu_api_key
 BASE_URL=https://your-infobip-base-url
 CSV_FILE=data.csv
 ```
+
+- **API_KEY**: Tu clave de API de Infobip.
+- **BASE_URL**: La URL base de Infobip, por ejemplo: `https://198rld.api.infobip.com`.
+- **CSV_FILE**: El nombre del archivo CSV que contiene los datos (asegúrate de que esté en el mismo directorio que el script).
 
 ## Ejecución
 
@@ -54,4 +71,3 @@ python main.py
 
 Los resultados y el progreso se mostrarán directamente en la terminal.
 
----
